@@ -78,3 +78,10 @@
       0px -10px 100px red;
   }
 }
+
+#h-15 {
+  font-size: 100px;
+  text-align: center;
+  color: #70e0df;
+  text-shadow:  1px 1px 2px #479696, 0 0 1em #6167cf, 0 0 0.2em #6167cf;;
+}
