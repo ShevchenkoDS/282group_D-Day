@@ -1,52 +1,80 @@
 #h-2 {
-    font-family: Comic Sans MS;
+  font-family: Comic Sans MS;
 }
 
 #h-3 {
-    display: table;
-    margin: 0 auto;
-    font-family: "Roboto Slab";
-    font-weight: 400;
-    font-size: 5em;
-    background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    line-height: 200px;
+  display: table;
+  margin: 0 auto;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  font-size: 5em;
+  background: linear-gradient(
+    330deg,
+    #e05252 0%,
+    #99e052 25%,
+    #52e0e0 50%,
+    #9952e0 75%,
+    #e05252 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 200px;
 }
 
 #h-5 {
-    font-family: Curlz MT;
-    font-size: 5em;
+  font-family: Curlz MT;
+  font-size: 5em;
 }
 
 #h-6 {
-    font-family: Comic Sans MS;
+  font-family: Comic Sans MS;
 }
 #h-7 {
-    font-family: Curlz MT;
-    font-size: 8em;
+  font-family: Curlz MT;
+  font-size: 8em;
 }
 
 #h-8 {
-    font-family: Curlz MT;
-    font-size: 4em;
+  font-family: Curlz MT;
+  font-size: 4em;
 }
-#h-9{
-    font-family: "Curlz MT";
-    font-size: 5em;
+#h-9 {
+  font-family: "Curlz MT";
+  font-size: 5em;
 }
-#h-10{
-    font-family: Comic Sans MS;
-    font-size: 10em;
+#h-10 {
+  font-family: Comic Sans MS;
+  font-size: 10em;
 }
-#h-11{
-    font-family: "Franklin Gothic Medium Cond";
-    font-size: 5em;
-    background-color: #0a03ff;
-    color: #ffe60b;
-
+#h-11 {
+  font-family: "Franklin Gothic Medium Cond";
+  font-size: 5em;
+  background-color: #0a03ff;
+  color: #ffe60b;
 }
 #h-12 {
-    font-family: Curlz MT;
-    font-size: 5em;
+  font-family: Curlz MT;
+  font-size: 5em;
+}
+#h-14 {
+  text-align: center;
+  font-size: 6.5em;
+  color: rgb(0, 0, 0);
+  letter-spacing: -7px;
+  font-weight: 100;
+  text-transform: uppercase;
+  animation: blur 1.75s ease-out infinite;
+  text-shadow: 0px 0px 5px #cfe608, 0px 0px 7px red;
+}
+
+@keyframes blur {
+  from {
+    text-shadow: 0px 0px 10px #cfe608, 0px 0px 10px #cfe608,
+      0px 0px 25px #cfe608, 0px 0px 25px #cfe608, 0px 0px 25px #cfe608,
+      0px 0px 25px #cfe608, 0px 0px 25px #cfe608, 0px 0px 25px #cfe608,
+      0px 0px 50px #cfe608, 0px 0px 50px #cfe608, 0px 0px 50px red,
+      0px 0px 150px red, 0px 10px 100px red, 0px 10px 100px red,
+      0px 10px 100px red, 0px 10px 100px red, 0px -10px 100px red,
+      0px -10px 100px red;
+  }
 }
