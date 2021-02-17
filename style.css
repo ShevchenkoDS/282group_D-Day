@@ -132,3 +132,15 @@
   color: #035407;
   text-shadow:  1px 1px 2px #53cf4a, 0 0 1em #17eb73, 0 0 0.2em #00ff0d;
 }
+
+
+#h-24{
+  font-family:Trattatello,	serif ,cursive;
+  font-style:oblique;
+  text-decoration : underline;
+  color:rgba(33, 10, 241, 0.959);
+  font-size : 5em;
+  text-decoration-color : rgb(223, 61, 61);
+  border: #6167cf;
+  background-color: #8ce0d2;
+}
