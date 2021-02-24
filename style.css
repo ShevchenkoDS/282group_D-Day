@@ -144,3 +144,19 @@
   border: #6167cf;
   background-color: #8ce0d2;
 }
+#h-25{
+  text-align: center;
+  font-size: xxx-large;
+  font-family: "Roboto Slab";
+  background: linear-gradient(
+    350deg,
+    red 0%,
+    red 25%,
+    purple 50%,
+    pink 75%,
+    black 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 200px;
+}
