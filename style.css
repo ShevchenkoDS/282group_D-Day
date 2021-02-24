@@ -160,3 +160,10 @@
   -webkit-text-fill-color: transparent;
   line-height: 200px;
 }
+#h-26{
+
+  text-shadow: #000 0 0 5px;
+  color: transparent;
+  font-family: sans-serif;
+
+}
